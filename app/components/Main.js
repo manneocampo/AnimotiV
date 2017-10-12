@@ -1,17 +1,18 @@
-var React        = require("react");
+import React, {Component} from "react";
+import Button from './Button';
 
-var Main = React.createClass({
+class Main extends Component {
 
 
-  componentDidMount: function() {
+  componentDidMount() {
 
-  },
+  }
 
-  render: function() {
+  render() {
     return (
-      <h1>Hello world!</h1>
+      <Button />
     );
   }
-});
+};
 
 module.exports = Main;
